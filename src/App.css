@@ -1,3 +1,11 @@
+:root {
+  --sunlight: #cff7fa;
+  --twilight: #6b9ccc;
+  --midnight: #4f7ebd;
+  --abyssal: #3165b0;
+  --hadal: #042c94;
+}
+
 .App {
   text-align: center;
 }
@@ -7,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--hadal);
   min-height: 100vh;
   display: flex;
   flex-direction: column;

@@ -1,0 +1,14 @@
+{
+  "workbench.colorTheme": "Dracula",
+  "breadcrumbs.enabled": true,
+  "javascript.format.enable": false,
+  "editor.formatOnSave": true,
+  "cSpell.enabled": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "cSpell.language": "en, pt-BR",
+  "prettier.tslintIntegration": true,
+  "cSpell.ignoreWords": [""]
+}

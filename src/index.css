@@ -1,13 +1,93 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+*:focus {
+  outline: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #f5f7fb;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+:root {
+  --primary: #f26e20;
+  --primary-dark: #d3601c;
+  --primary-light: #ff9f50;
+  --sunlight: #cff7fa;
+  --twilight: #6b9ccc;
+  --midnight: #4f7ebd;
+  --abyssal: #3165b0;
+  --hadal: #042c94;
+  --white: #ffffffff;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.direita {
+  align-items: center;
+}
+
+.SignIn {
+  background-color: var(--white);
+  width: 128px;
+  height: 128px;
+  padding: 8px;
+  flex: 1;
+  border-radius: 64px;
+}
+
+.SignIn img {
+  fill: var(--hadal);
+}
+
+.Background {
+  background-color: var(--hadal);
+  flex: 1;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.ButtonBackground {
+  background-color: var(--hadal);
 }
