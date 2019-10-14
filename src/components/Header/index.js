@@ -15,8 +15,8 @@ export default function Header(props) {
         // onClick: () => history.push('/perfil'),
       },
       {
-        icon: "star",
-        value: "Revenda"
+        icon: "settings",
+        value: "Configurações"
         // onClick: () => history.push('/minha-revenda'),
       },
       { isDivider: true },

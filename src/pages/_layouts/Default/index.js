@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Page } from "tabler-react";
 import Header from "../../../components/Header";
 import Navbar from "../../../components/Navbar";
+import Footer from "../../../components/Footer";
 
 export default function DefaultLayout({ children }) {
   const [collapseMobileMenu, setCollapseMobileMenu] = useState(true);
@@ -14,6 +15,7 @@ export default function DefaultLayout({ children }) {
         />
         <Navbar collapse={collapseMobileMenu} />
       </Page.Main>
+      <Footer />
     </Page>
   );
 }
